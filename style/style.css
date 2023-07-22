@@ -11,6 +11,14 @@ body {
     margin: 0;
 }
 
+#cargando {
+    display: none;
+position: absolute;
+left: 40vw;
+top: 40vh;
+z-index: 999;
+
+}
 
 /* grids body*/
 .miBody {
@@ -136,3 +144,4 @@ header .imgCarrito {
     font-size: 25px; 
     background-color: burlywood;
 }
+
